@@ -22,6 +22,7 @@ cran_packages <- c('ggplot2',
 github_packages <- c('padpadpadpad/TeamPhytoplankton',
                      'padpadpadpad/CoppeR',
                      'padpadpadpad/nlsLoop',
-                     'RhoInc/CRANsearcher')
+                     'RhoInc/CRANsearcher',
+                     'leffj/mctoolsr')
 
 MicrobioUoE::package_install_all(cran_packages, github_packages)
