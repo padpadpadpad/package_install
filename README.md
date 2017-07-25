@@ -6,8 +6,8 @@ This comes in handy when drives are changed or new versions of R come out.
 
 #### To run
 
-```{r}
-# open script
+```r
+# open packages_to_install.R
 
 # install devtools
 install.packages('devtools')
@@ -16,5 +16,4 @@ install.packages('devtools')
 devtools::install_github('padpadpadpad/MicrobioUoE')
 
 # run script after specifying packages to install from GitHub, CRAN and Bioconductor
-
 ```
