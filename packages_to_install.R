@@ -16,7 +16,10 @@ cran_packages <- c('ggplot2',
                    'data.table',
                    'lubridate',
                    'bookdown',
-                   'reshape2'
+                   'reshape2',
+                   'mise',
+                   'nlsMicrobio',
+                   'minpack.lm'
                    )
 
 github_packages <- c('padpadpadpad/TeamPhytoplankton',
