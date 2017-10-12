@@ -19,13 +19,35 @@ cran_packages <- c('ggplot2',
                    'reshape2',
                    'mise',
                    'nlsMicrobio',
-                   'minpack.lm'
-                   )
+                   'minpack.lm',
+                   'brms',
+                   'taxize',
+                   'caret',
+                   'bookdown',
+                   'cowplot',
+                   'ggridges',
+                   'googledrive',
+                   'readxl',
+                   'readr',
+                   'stringi',
+                   'phangorn',
+                   'ape',
+                   'devtools',
+                   'leaflet')
+
+bioconductor_packages <- c('Biostrings', 
+                           'sangerseqR', 
+                           'DECIPHER',
+                           "dada2")
 
 github_packages <- c('padpadpadpad/TeamPhytoplankton',
                      'padpadpadpad/CoppeR',
                      'padpadpadpad/nlsLoop',
                      'RhoInc/CRANsearcher',
-                     'leffj/mctoolsr')
+                     'leffj/mctoolsr',
+                     'MilesMcBain/gistfo',
+                     "phyloseq/joey711",
+                     "padpadpadpad/dataViewer")
 
 MicrobioUoE::package_install_all(cran_packages, github_packages)
+
